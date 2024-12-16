@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Repository in Local Environment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        ul {
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clone Repository in Local Environment</h1>
+    <h2>Requirements</h2>
+    <ul>
+        <li>GitHub account (please use your company email).</li>
+        <li>Install <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>.</li>
+        <li>Install <a href="https://git-scm.com/" target="_blank">Git</a>.</li>
+    </ul>
+    
+    <h2>Steps</h2>
+    <ol>
+        <li><strong>Download files from FTP:</strong> Obtain the necessary files from the provided FTP source.</li>
+        <li><strong>Check your email:</strong> Accept the GitHub repository invitation from <code>afafilo</code>.</li>
+        <li><strong>Copy the HTTPS URL of the GitHub repository:</strong> Locate the repository URL in GitHub.</li>
+        <li>
+            <strong>Open VS Code:</strong> Ensure Git is installed first.
+            <ul>
+                <li>In the Source Control panel, click "Clone Repository."</li>
+                <img class="center"src="soutce_control.png">
+                <li>Paste the copied HTTPS URL, and add your username and personal access token.</li>
+                <img class="center"src="git_https.png">
+            </ul>
+            <p>Example:</p>
+            <pre>
+https://[username]:[token]@github.com/afafilo/[repository_name]
+https://afacebuwilfredo:ghp_cIviyYIMdW7cdMzrF3kIGiLHpdfgPzg@github.com/afafilo/barranquillawomen.com.git
+            </pre>
+        </li>
+        <li>
+            <strong>Copy files:</strong> Move the downloaded files from the FTP into the folder created by the Git clone.
+        </li>
+    </ol>
+    
+    <footer>
+        <p>Need help? Contact your administrator for assistance.</p>
+    </footer>
+</body>
+</html>
