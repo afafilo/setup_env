@@ -1,6 +1,11 @@
 # 🌟 **Welcome to the Development Team!** 🌟
-
 We are thrilled to have you join our team! As part of this dynamic and innovative group, you will be contributing to building exceptional, scalable, and efficient solutions. Together, we are creating a legacy of impactful development practices that drive success.
+
+## Documentation pages 
+1. [Clone Repository in Local Environment](https://afafilo.github.io/setup_env/github_env/)
+2. [First Commit](https://afafilo.github.io/setup_env/first_commit/)
+3. [Setup Local Development Environment](https://afafilo.github.io/setup_env/) 
+4. [Error And Solution](https://afafilo.github.io/setup_env/error_answer/ )
 
 ## Why Development Processes Matter
 
