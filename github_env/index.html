@@ -35,43 +35,55 @@
         a:hover {
             text-decoration: underline;
         }
+        
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
-    <h1>Clone Repository in Local Environment</h1>
-    <h2>Requirements</h2>
-    <ul>
-        <li>GitHub account (please use your company email).</li>
-        <li>Install <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>.</li>
-        <li>Install <a href="https://git-scm.com/" target="_blank">Git</a>.</li>
-    </ul>
-    
-    <h2>Steps</h2>
-    <ol>
-        <li><strong>Download files from FTP:</strong> Obtain the necessary files from the provided FTP source.</li>
-        <li><strong>Check your email:</strong> Accept the GitHub repository invitation from <code>afafilo</code>.</li>
-        <li><strong>Copy the HTTPS URL of the GitHub repository:</strong> Locate the repository URL in GitHub.</li>
-        <li>
-            <strong>Open VS Code:</strong> Ensure Git is installed first.
-            <ul>
-                <li>In the Source Control panel, click "Clone Repository."</li>
-                <img class="center"src="soutce_control.png">
-                <li>Paste the copied HTTPS URL, and add your username and personal access token.</li>
-                <img class="center"src="git_https.png">
-            </ul>
-            <p>Example:</p>
-            <pre>
+    <div class="container">
+        <h1>Clone Repository in Local Environment</h1>
+        <h2>Requirements</h2>
+        <ul>
+            <li>GitHub account (please use your company email).</li>
+            <li>Install <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a>.</li>
+            <li>Install <a href="https://git-scm.com/" target="_blank">Git</a>.</li>
+        </ul>
+        
+        <h2>Steps</h2>
+        <ol>
+            <li><strong>Download files from FTP:</strong> Obtain the necessary files from the provided FTP source.</li>
+            <li><strong>Check your email:</strong> Accept the GitHub repository invitation from <code>afafilo</code>.</li>
+            <li><strong>Copy the HTTPS URL of the GitHub repository:</strong> Locate the repository URL in GitHub.</li>
+            <li>
+                <strong>Open VS Code:</strong> Ensure Git is installed first.
+                <ul>
+                    <li>In the Source Control panel, click "Clone Repository."</li>
+                    <img class="center"src="soutce_control.png">
+                    
+                    <li>Paste the copied HTTPS URL, and add your username and personal access token.</li>
+                    <img class="center"src="git_https.png">
+                </ul>
+                <p>Example:</p>
+                <pre>
 https://[username]:[token]@github.com/afafilo/[repository_name]
 https://afacebuwilfredo:ghp_cIviyYIMdW7cdMzrF3kIGiLHpdfgPzg@github.com/afafilo/barranquillawomen.com.git
-            </pre>
-        </li>
-        <li>
-            <strong>Copy files:</strong> Move the downloaded files from the FTP into the folder created by the Git clone.
-        </li>
-    </ol>
-    
-    <footer>
-        <p>Need help? Contact your administrator for assistance.</p>
-    </footer>
+                </pre>
+            </li>
+            <li>
+                <strong>Copy files:</strong> Move the downloaded files from the FTP into the folder created by the Git clone.
+            </li>
+        </ol>
+        
+        <footer>
+            <p>Need help? Contact your administrator for assistance.</p>
+        </footer>
+    </div>
 </body>
 </html>
