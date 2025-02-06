@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Create a GitHub Personal Access Token</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img.center {
+            display: block;
+            max-width: 100%;
+            margin: 15px 75px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Create a GitHub Personal Access Token</h1>
+        
+        <h2>Navigate to Developer Settings</h2>
+        <ol>
+            <li>Click on your profile picture (top-right corner).</li>
+            <li>Select <strong>"Settings"</strong>.</li>
+            <li>Scroll down and click <strong>"Developer settings"</strong>.</li>
+            <img class="center" src="settings.png">
+            <img class="center" src="developer_settings.png">
+        </ol>
+
+        <h2>Access Personal Access Tokens</h2>
+        <ol>
+            <li>Click <strong>"Personal access tokens"</strong> in the left menu.</li>
+            <li>Click <strong>"Generate new token"</strong>.</li>
+            <img class="center" src="personal_token.png">
+            <img class="center" src="generate_classic_tokken.png">
+
+        </ol>
+
+        <h2>Configure Your Token</h2>
+        <ol>
+            <li>Enter a name for your token.</li>
+            <li>Select an expiration date (optional).</li>
+            <li>Choose permissions based on your needs (e.g., <code>repo</code>, <code>read:org</code>).</li>
+            <img class="center" src="set_token_scope.png">
+        </ol>
+
+        <h2>Generate and Copy the Token</h2>
+        <ol>
+            <li>Click <strong>"Generate token"</strong>.</li>
+            <li>Copy and store it securely.</li>
+        </ol>
+
+        <h2>Use Your Token</h2>
+        <p>Example Git Clone:</p>
+        <code>git clone https://YOUR_USERNAME:YOUR_TOKEN@github.com/username/repository.git</code>
+    
+        </div>
+</body>
+</html>
