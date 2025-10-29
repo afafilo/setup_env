@@ -7,6 +7,7 @@ We are thrilled to have you join our team! As part of this dynamic and innovativ
 3. [Setup Local Development Environment](https://afafilo.github.io/setup_env/) 
 4. [Error And Solution](https://afafilo.github.io/setup_env/error_answer/ )
 4. [Generate Token](https://afafilo.github.io/setup_env/generate_token/ )
+5. [Dev workflow (current to local branch)](https://docs.google.com/document/d/1XoRlJj_tB55ML9WTi2AqMcOt_OWqDHuxYWDtk335uyM)
 
 ## Why Development Processes Matter
 
